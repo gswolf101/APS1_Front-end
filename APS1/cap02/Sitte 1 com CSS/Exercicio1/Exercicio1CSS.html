@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            color: #906718;
+            border-top: #906718 2px solid;
+            border-bottom: #906718 2px solid;
+        }
+        h3{
+            color: #fff;
+            background-color: #906718;
+        }
+        img{
+            border-bottom: #906718 4px solid;
+            border-top: #906718 4px solid;
+            border-left: #906718 4px solid;
+            border-right: #906718 4px solid;
+            padding: 5px;
+        }
+        p {
+            text-align: left;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <h2>Estudando HTML</h2>
+    <br><br>
+    <h3>Paragrafos</h3>
+    <br>
+    <img src="ilustra1.jpg" alt="Imagem do livro com os textos">
+    <br>
+    <p>Para colocarmos parágrafos, usamos os elementos "p" e "/p". Para fazer uma quebra de linha, mantendo o mesmo parágrafo, usamos o elemento "br". Temos ainda parágrafos especiais, denominados títulos, cabeçalhos ou headings em que são usados elementos de "h1" a "h6" e seus respectivos fechamentos de "/h1" a "/h6".</p>
+    <h3>Imagens</h3>
+    <br>
+    <img src="ilustra2.jpg" alt="Imagem do livro com fotos">
+    <p>Uma imagem aparece na janela do navegador pelo uso do elemento "img". Esse elemento possui o atributo "src", responsável pela localização da imagem. Para trabalhar melhor com a imagem, você pode colocá-la dentro das tags de marcação de parágrafo.</p>
+    
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Centralizada</title>
+    <style>
+        ul {
+            list-style-type: none; /* Remove os marcadores */
+            padding: 0;
+            margin: 0;
+            text-align: center; /* Centraliza o texto */
+        }
+        .container {
+            display: flex;
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center; /* Centraliza verticalmente */
+            height: 100vh; /* Ocupa toda a altura da página */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </div>
+</body>
+</html>
