@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <a href="../Central.html"> Voltar </a>
+
+    <h2><i>Agendamento para banho e tosa</i></h2>
+    <h3>Faça o agendamento completo com no minímo 24 horas de antecedência</h3>
+<!-- Form é para driação de formulários -->
+ <!-- div é usado para agrupar elementos -->
+    <form action="">
+        <fieldset border = "2">
+            <legend>informações do dono</legend>
+            <div>
+                <label for="">Nome</label>
+                <input type="text" name="name" id="name" placeholder="Seu nome muito bonito da silva" maxlength="50" size="50">
+                <!-- placeholder tem que por após a criação do input como um atributo extra que põe um texto de exemplo para a caixa de resposta-->
+                <!-- maxleght tem que por após a criação do input como um atributo extra que define quantos caracteres a resposta pode ter-->
+                <!-- size tem que por após a criação do input como um atributo extra que aumenta a largura ca caixa de resposta -->
+
+            </div>                                                                                                                                                                                          
+            <br>
+            <div>
+                <label for="">Endereço</label>
+                <input type="text" name="address" id="address" placeholder="Seu endereço" size="50">
+            </div>
+            <br>
+            <div>
+                <label for="">CEP</label>
+                <input type="text" name="cep" id="cep" placeholder="XX.XXXXX" size="50">
+            </div>
+            <br>
+            <div>
+                <label for="">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="seu melhor email" maxlength="50" size="50"> 
+            </div>
+            <br>
+            <div>
+                <label for="">Telefone</label>
+                <input type="tel" name="phone" id="phone" placeholder="(XX) XXXX-XXXX" size="50">
+            </div>
+        </fieldset>
+    <fieldset>
+        <legend>Informações do pet - <strong>não atendemos animais sem vacinação</strong></legend>
+        <div>
+            <label for="">Nome do pet</label>
+            <input type="text" name="pet_name" id="pet_name" placeholder="nome do pet" size="50">
+        </div>
+        <br>
+        <div>
+            <label for="">Qual o tamanho do seu pet?</label>
+            <input type="radio" name="porte" id="pq" value="pequeno">
+            <input type="radio" name="porte" id="md" value="medio">
+            <input type="radio" name="porte" id="gr" value="grande">
+            <input type="radio" name="porte" id="mg" value="muito grande">
+        </div>
+        <br>
+        <div>
+            <label for="">Qual o tipo de serviço?</label>
+            <select name="Tiposerviço" id="serviço">
+                <option value="">Nenhum</option>
+                <option value="Banho">Banho</option>
+                <option value="Massagem">Massagem</option>
+                <option value="Tosa">Tosa</option>
+                <option value="Unhas">Unhas</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Para quando?</label>
+            <br>
+            <input type="checkbox" name="seg" id="seg">
+            <label for="seg">Segunda-Feira</label>
+            <input type="checkbox" name="ter" id="ter">
+            <label for="ter">Terça-Feira</label>
+            <input type="checkbox" name="qua" id="qua">
+            <label for="qua">Quarta-Feira</label>
+            <input type="checkbox" name="qui" id="qui">
+            <label for="qui">Quinta-Feira</label>
+            <input type="checkbox" name="sex" id="sex">
+            <label for="sex">Sexta-Feira</label>
+        </div>
+        <br>
+        <div>
+            <label for="">Se a primeira opção não tiver disponivel</label>
+            <br>
+            <input type="checkbox" name="seg" id="seg">
+            <label for="seg">Segunda-Feira</label>
+            <input type="checkbox" name="ter" id="ter">
+            <label for="ter">Terça-Feira</label>
+            <input type="checkbox" name="qua" id="qua">
+            <label for="qua">Quarta-Feira</label>
+            <input type="checkbox" name="qui" id="qui">
+            <label for="qui">Quinta-Feira</label>
+            <input type="checkbox" name="sex" id="sex">
+            <label for="sex">Sexta-Feira</label>
+        </div>
+        <br>
+        
+        <div>
+            <label for="date">Horário</label> <br>
+            <input type="time" name="time" id="time" placeholder="HH:MM" size="50">
+        </div>
+    </fieldset>
+    </form>
+    
+</body>
+</html>

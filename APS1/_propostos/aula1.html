@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula01</title>
+</head>
+<body>
+    <h2><a href="../Central.html"> Voltar </a></h2>
+    quem leu é gay
+    <h1>Elementos do HTML</h1>
+
+    <p>isto é um paragrafo</p>
+    <p>isto é um <br> paragrafo</p>
+    <p>isto é um <br> paragrafo</p>
+    <p>isto é um <br> paragrafo</p>
+    <hr>
+    <span>a</span>
+    <hr>
+    <h2>Formatação dos textors</h2>
+
+    <p><b>palavra em negrito</b></p>
+
+    <p><strong>esta palavra esta em strong</strong></strong></p>
+
+    <p><em>esta palavra este em emphasized</em></p>
+
+    <p><i>este texto esta em italico</i></p>
+
+    <p><small>este texto esta pequeno</small></p>
+
+    <p>aqui foi utilizado o <sub>subscript</sub> e o <sup>superscript</sup></p>
+
+    <hr>
+
+    <h2>FORMATAÇÕES EXTRAS</h2>
+
+    <p>Quem leu é super <del>gay</del></p>
+
+    <p>Quem leu me deve um <ins>salgado</ins></p>
+
+    <p>quem leu me deve <mark>um segundo salgado</mark></p>
+
+    <pre> este texto esta nas mesmas FORMATAÇÕES                dentro do codigo
+usando o codigo &lt;pre&gt;
+    </pre>
+
+    <p>veja os requiitos de hardware para a utilização do software</p>
+
+    <blockquote>especificações, da este espacinho antes do texto</blockquote>
+
+    <hr>
+
+    <h2>Listas não ordenadas</h2>
+    <h1>lista não ordenada simples</h1>
+
+    <li>item1</li>
+    <li>item2</li>
+    <li>item3</li>
+
+    <h1>lista não hordenada com subtopicos</h1>
+    <ul>
+        <li>item1</li>
+        <li>tiem2</li>
+        <ul>
+            <li>item2.1</li>
+            <li>item2.2</li>
+            <ul>
+                <li>item2.2.1</li>
+                <li>item2.2.2</li>
+            </ul>
+    
+    </ul>
+
+    </ul>
+
+    <hr>
+
+    <h2>Listas ordenadas</h2>
+    <h1>lista ordenada simples</h1>
+    <ol>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ol>
+
+    <h1>lira ordenada com subtopicos</h1>
+    <ol>
+        <li>item1</li>
+        <li>item2</li>
+        <ol>
+            <li>item2.1</li>
+            <li>item2.2</li>
+            <ol>
+                <li>item2.2.1</li>
+                <li>item2.2.2</li>
+            </ol>
+        </ol>
+        <li>item3</li>
+    </ol>
+
+    <hr>
+
+    <h1>lista ordenada com comandos extras</h1>
+    <h1>lista com &lt;ol start= "13"&gt;</h1>
+    <ol start=" 13">
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ol>
+
+    <h1>lista com &lt;ol type= "(tipo)"</h1>
+    <ol type="I">
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ol>
+
+    <hr>
+
+    <h1>listas vom termos</h1>
+    <dl>
+        <dt>termo1</dt>
+        <dd>descrição do termo 1</dd>
+
+        <dt>termo2</dt>
+        <dd>descrição do termo 2</dd>
+
+        <dt>termo3</dt>
+        <dd>descrição do termo 3</dd>
+    </dl>
+
+    <hr>
+
+    <span>este texto foi feito pelo &lt;span&gt;</span>
+    <hr>
+
+    <h2>Imagens</h2>
+
+    <img src="imgs/unisenai.png" alt="Graduação Unisenai">
+
+    <figure>
+        <img src="imgs/extensao (1).png" alt="Cursos Extenção">
+        <img src="imgs/pos_2.png" alt="Cursos pós Graduação">
+        <img src="imgs/graduacao_2.png" alt="Cursos de Graduação">
+        <figcaption>Legenda das imagens</figcaption>
+    </figure>
+
+    <!-- A partir disto se faz as imagens a prtir do comando "img", src e o caminho da imagem e alt é o que ela diz
+     se esta dentro e figure junta as imagens na mesma linha, a menos que o tamanho das imagens acabe essedendo o limite de espaço, nesse caso a imagem vai para a linha de baixo-->
+
+     <hr>
+
+     <h1>Tabelas</h1>
+
+
+    <!-- Table é o comando tag de tabela estilo excel -->
+
+<!-- Tabela em colunas -->
+    <table border ="3">
+        <!-- caption pode ser tanto em cima quanto em baixo do codigo, e serve como titulo ou legenda -->
+        <caption><h2><i>Tabela em colunas</i></h2></caption>
+        <!-- tr = table row -->
+         <!-- thead = titulo tabela de excel-->
+          <!-- tbody = informações abaixo do titulo -->
+       <thead>
+        <tr>
+            <!-- th = table head -->
+             <th>Nome</th>
+             <th>E-mail</th>
+        </tr>
+       </thead>
+       <tbody>
+            <!-- td = table data / informações ou dados da tabela-->
+            <tr>            
+                <td>Felipe</td>
+                <td>felipe@unisenai.com.br</td>
+            </tr>
+            <tr>
+                <td>Natalia</td>
+                <td>natalia@unisenai.com.br</td>
+            </tr>
+
+       </tbody>
+       <hr>
+    </table>
+        
+<!-- Tabela em linhas -->
+    <table border = "3">
+        <caption><h2><i>Tabela em linhas</i></h2></caption>
+        <tr>
+            <th>nome</th>
+            <td>Felipe</td>
+            <td>Natalia</td>
+        </tr>
+        <tr>
+            <th>e-mail</th>
+            <td>felipe@unisenai.com.br</td>
+            <td>natalia@unisenai.com.br</td>
+        </tr>
+    </table>
+    
+    <table border= "3">
+        <!-- o colspan é um atributo adicional para o th e o td que da um valor de quantas colunas a informação deve ocupar -->
+         <!-- col vem de coluna -->
+        <caption><h2><i>Tabela com colspan</i></h2></caption>
+        <tr>
+            <th colspan="2">Tabela de nome e peso</th>
+        </tr>
+        <tr>
+            <td>Felipe</td>
+            <td>75</td>
+        </tr>
+        <tr>
+            <td>Natalia</td>
+            <td>54</td>
+        </tr>
+    </table>
+    <table border="3">
+        <!-- rowspan atribui o valor de quantas linhas o th ou o td iram ocupar -->
+        <!-- Row vem de linha -->
+        <caption><h2><i>Tabela com Rowspan</i></h2></caption>
+        <tr>
+            <th>nome</th>
+            <th>Idade</th>
+            <th>o que são</th>
+        </tr>
+        <tr>
+            <td>Felipe</td>
+            <td>18</td>
+            <td rowspan="2"> um casal </td>
+        </tr>
+        <tr>
+            <td>Natalia</td>
+            <td>18</td>
+        </tr>
+    </table>
+    <hr>
+    <!-- <a href=""></a> permite por um link, se não ouver um coloca # entre as aspas e entre as tags a coloque o texto que tem de ser pressionado para ir para a página -->
+     <h2>Links</h2>
+
+    <a href="#">Link sem nada</a>
+
+</body>
+</html>
+<!-- não e necessario dijitar o "<", apenas o comando / tag e dar enter -->
+<!-- "alt + z" ou view > word wrap quebra a linha infinita em uma lina muito grande (função do  vscode)-->
+ <!-- "ctrl + alt + ceta para baixo / clicar na linha" permite escrever em mais de uma linha por vez-->
+  <!-- <br> é uma quebra de linha -->
+   <!-- hr = horizontal rol -->
+    <!-- "seleciona texto + ctrl + shift + p" > dijita Wrap With Abreviettion > coloca a tag uqe quer enquadrar o texto a palavra selecionada em -->
+    
